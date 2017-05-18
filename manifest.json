@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Using socket",
+  "description": "Geração de nfe",
+  "version": "1.0",
+  "app": {
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  },
+  "permissions": [
+    {
+      "socket": [
+        "tcp-connect",
+        "tcp-listen"
+      ]
+    }
+  ]
+}
